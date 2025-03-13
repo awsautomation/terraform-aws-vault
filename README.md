@@ -107,27 +107,3 @@ Instead of having to figure out the details of how to run a piece of infrastruct
 existing code that has been proven in production. And instead of maintaining all that infrastructure code yourself,
 you can leverage the work of the Module community and maintainers, and pick up infrastructure improvements through
 a version number bump.
-
-
-## Who created this Module?
-
-These modules were created by [Gruntwork](http://www.gruntwork.io/?ref=repo_aws_vault), in partnership with HashiCorp, in 2017 and maintained through 2021. They were deprecated in 2022 in favor of newer alternatives (see the top of the README for details).
-
-
-## How is this Module versioned?
-
-This Module follows the principles of [Semantic Versioning](http://semver.org/). You can find each new release,
-along with the changelog, in the [Releases Page](../../releases).
-
-During initial development, the major version will be 0 (e.g., `0.x.y`), which indicates the code does not yet have a
-stable API. Once we hit `1.0.0`, we will make every effort to maintain a backwards compatible API and use the MAJOR,
-MINOR, and PATCH versions on each release to indicate any incompatibilities.
-
-
-
-## License
-
-This code is released under the Apache 2.0 License. Please see [LICENSE](https://github.com/hashicorp/terraform-aws-vault/tree/master/LICENSE) and [NOTICE](https://github.com/hashicorp/terraform-aws-vault/tree/master/NOTICE) for more
-details.
-
-Copyright &copy; 2020 [Gruntwork](https://gruntwork.io/?ref=repo_aws_vault), Inc.
