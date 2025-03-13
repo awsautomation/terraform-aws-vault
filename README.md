@@ -1,11 +1,3 @@
-# DISCLAIMER
-**This repository is no longer supported, please consider using [this repository](https://registry.terraform.io/modules/hashicorp/vault-starter/aws/latest) for the latest and most supported version for Vault.**
-
-Moving forward in the future this repository will be no longer supported and eventually lead to
-deprecation. Please use our latest versions of our products moving forward or alternatively you
-may fork the repository to continue use and development for your personal/business use.
-
----
 # Vault AWS Module
 
 This repo contains a set of modules in the [modules folder](https://github.com/hashicorp/terraform-aws-vault/tree/master/modules) for deploying a [Vault](https://www.vaultproject.io/) cluster on
